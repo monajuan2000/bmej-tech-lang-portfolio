@@ -6,10 +6,25 @@
   </head>
   <body>
     <header>
-      <h1>Hello world from component main portfolio</h1>
+      <h1 style="background-color: red; justify-content: center; display: flex">
+        Hello world from component main portfolio
+      </h1>
     </header>
-    <nav></nav>
-    <article></article>
-    <footer></footer>
+    <nav>
+      <app-basic-toolbar></app-basic-toolbar>
+    </nav>
+    <article style="background-color: black; height: 100%">
+      <app-programming-projects-carousel></app-programming-projects-carousel>
+    </article>
+    <footer
+      class="wrapper"
+      style="
+        background-color: cadetblue;
+        justify-content: center;
+        display: flex;
+      "
+    >
+      copyright C Juan Esteban Mona Bermudez
+    </footer>
   </body>
 </html>
