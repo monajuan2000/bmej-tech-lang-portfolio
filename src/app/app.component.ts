@@ -2,7 +2,8 @@ import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { BasicToolbarComponent } from './util/components/basic_toolbar/basic-toolbar.component';
 import { ProgrammingProjectsCarouselComponent } from './util/components/programming_projects_carousel/programming-projects-carousel.component';
-import { MainPageComponent } from './util/components/main-page/main-page.component';
+import { MainPageComponent } from './util/components/main_page/main-page.component';
+import { OverallButtonComponent } from './util/components/overall-button/overall-button.component';
 
 @Component({
   selector: 'app-root',
@@ -12,6 +13,7 @@ import { MainPageComponent } from './util/components/main-page/main-page.compone
     BasicToolbarComponent,
     ProgrammingProjectsCarouselComponent,
     MainPageComponent,
+    OverallButtonComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.sass',
