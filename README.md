@@ -1,4 +1,4 @@
-# bmej-tech-lang-portfolio
+# bmejbandt-tech-lang-portfolio
 
 # TechLang Portfolio
 
